@@ -1,6 +1,6 @@
 <div align="center">
-  <!-- Header Banner Dinámico y Ondulante -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,23,28,31&height=220&section=header&text=Jose%20David%20Marin%20Giraldo&fontSize=44&fontAlignY=36&animation=twinkling&desc=Co-Founder%20DevMake%20%7C%20Ingenier%C3%ADa%20de%20Sistemas%20UTP%20%7C%20Backend%2C%20Data%20%26%20ERP%20Architecture&descFontSize=17&descAlignY=62" width="100%" alt="Jose David Marin Header"/>
+  <!-- Header Banner Dinámico y Ondulante (Cargado desde el repositorio para 100% disponibilidad) -->
+  <img src="./assets/header-banner.svg" width="100%" alt="Jose David Marin Header"/>
 
   <!-- Efecto Máquina de Escribir Animado (Typing SVG) -->
   <a href="https://github.com/josedavidmarin">
@@ -52,7 +52,7 @@
       </div>
     </td>
     <td width="40%" align="center" valign="middle">
-      <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Coding Animation"/>
+      <img src="./assets/coding-animation.svg" width="100%" alt="Live Coding & Architecture Terminal"/>
     </td>
   </tr>
 </table>
@@ -187,10 +187,10 @@
 ### 📊 Métricas & Actividad en GitHub
 
 <div align="center">
-  <!-- Tarjetas de Resumen de Perfil y Lenguajes con Gráficos Radiales y Curvas -->
+  <!-- Tarjetas de Resumen de Perfil y Lenguajes con Alto Contraste -->
   <p align="center">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=josedavidmarin&theme=radical" width="49%" alt="Profile Details"/>
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=josedavidmarin&theme=radical" width="49%" alt="Top Languages"/>
+    <img src="./assets/top-languages.svg" width="49%" alt="Top Languages & Stack"/>
   </p>
 
   <!-- Contador de Rachas con Fuego y Anillo Animado -->
@@ -239,5 +239,5 @@
   </p>
   <br/>
   <!-- Footer ondulante dinámico -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,23,28,31&height=100&section=footer" width="100%" alt="Footer Banner"/>
+  <img src="./assets/footer-banner.svg" width="100%" alt="Footer Banner"/>
 </div>

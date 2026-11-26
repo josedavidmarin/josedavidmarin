@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="langCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141321" />
+      <stop offset="100%" stop-color="#141321" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background matching Radical Theme (#141321) -->
+  <rect width="340" height="200" rx="6" fill="url(#langCardBg)" />
+
+  <!-- Title matching Radical Theme (#fe428e) -->
+  <text x="22" y="34" font-family="'Segoe UI', Ubuntu, Roboto, sans-serif" font-size="17" font-weight="700" fill="#FE428E">
+    Top Languages &amp; Stack
+  </text>
+
+  <!-- High-Contrast Legend on Left -->
+  <g font-family="'Segoe UI', Ubuntu, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#A9FEF7">
+    <!-- 1. Python (Vibrant Gold #FFD43B) -->
+    <rect x="22" y="54" width="12" height="12" rx="2.5" fill="#FFD43B" />
+    <text x="41" y="64.5">Python</text>
+    <text x="165" y="64.5" fill="#FFD43B" font-size="11.5" text-anchor="end">48%</text>
+
+    <!-- 2. TypeScript / React (Electric Cyan #00F2FE) -->
+    <rect x="22" y="78" width="12" height="12" rx="2.5" fill="#00F2FE" />
+    <text x="41" y="88.5">TypeScript</text>
+    <text x="165" y="88.5" fill="#00F2FE" font-size="11.5" text-anchor="end">20%</text>
+
+    <!-- 3. PostgreSQL / SQL (Emerald Neon #39D353) -->
+    <rect x="22" y="102" width="12" height="12" rx="2.5" fill="#39D353" />
+    <text x="41" y="112.5">PostgreSQL / SQL</text>
+    <text x="165" y="112.5" fill="#39D353" font-size="11.5" text-anchor="end">14%</text>
+
+    <!-- 4. JavaScript / Next.js (Neon Purple #A855F7) -->
+    <rect x="22" y="126" width="12" height="12" rx="2.5" fill="#A855F7" />
+    <text x="41" y="136.5">JavaScript</text>
+    <text x="165" y="136.5" fill="#A855F7" font-size="11.5" text-anchor="end">10%</text>
+
+    <!-- 5. Jupyter / AI & XML (Vibrant Orange #FF6B35) -->
+    <rect x="22" y="150" width="12" height="12" rx="2.5" fill="#FF6B35" />
+    <text x="41" y="160.5">Jupyter / QWeb</text>
+    <text x="165" y="160.5" fill="#FF6B35" font-size="11.5" text-anchor="end">8%</text>
+  </g>
+
+  <!-- High-Contrast Donut Chart on Right (Center: cx=252, cy=110, r=52, circumference=326.7) -->
+  <g transform="rotate(-90 252 110)">
+    <!-- Background Ring -->
+    <circle cx="252" cy="110" r="52" fill="none" stroke="#1f1e33" stroke-width="22" />
+
+    <!-- Python: 48% -> 156.8 of 326.7 -->
+    <circle cx="252" cy="110" r="52" fill="none" stroke="#FFD43B" stroke-width="22"
+            stroke-dasharray="154.8 326.7" stroke-dashoffset="0" />
+
+    <!-- TypeScript: 20% -> 65.3 of 326.7 (offset -156.8) -->
+    <circle cx="252" cy="110" r="52" fill="none" stroke="#00F2FE" stroke-width="22"
+            stroke-dasharray="63.3 326.7" stroke-dashoffset="-156.8" />
+
+    <!-- PostgreSQL / SQL: 14% -> 45.7 of 326.7 (offset -222.1) -->
+    <circle cx="252" cy="110" r="52" fill="none" stroke="#39D353" stroke-width="22"
+            stroke-dasharray="43.7 326.7" stroke-dashoffset="-222.1" />
+
+    <!-- JavaScript: 10% -> 32.7 of 326.7 (offset -267.8) -->
+    <circle cx="252" cy="110" r="52" fill="none" stroke="#A855F7" stroke-width="22"
+            stroke-dasharray="30.7 326.7" stroke-dashoffset="-267.8" />
+
+    <!-- Jupyter / QWeb: 8% -> 26.2 of 326.7 (offset -300.5) -->
+    <circle cx="252" cy="110" r="52" fill="none" stroke="#FF6B35" stroke-width="22"
+            stroke-dasharray="24.2 326.7" stroke-dashoffset="-300.5" />
+  </g>
+
+  <!-- Center Donut Label -->
+  <text x="252" y="107" text-anchor="middle" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">
+    Full-Stack
+  </text>
+  <text x="252" y="122" text-anchor="middle" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="10.5" font-weight="600" fill="#00F2FE">
+    &amp; Data
+  </text>
+</svg>
